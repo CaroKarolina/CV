@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <div class="final-date">
+      <h2>Ostateczna data:</h2>
+      <input type="datetime-local" class="final-date-input" />
+      <button class="final-date-btn">Start</button>
+    </div>
+    <div class="msg">Czas minął.</div>
+    <div class="clock-container">
+      <div class="cell">
+        <h3>Dni</h3>
+        <h1 class="days"></h1>
+      </div>
+      <div class="cell">
+        <h3>Godziny</h3>
+        <h1 class="hours"></h1>
+      </div>
+      <div class="cell">
+        <h3>Minuty</h3>
+        <h1 class="minutes"></h1>
+      </div>
+      <div class="cell">
+        <h3>Sekundy</h3>
+        <h1 class="seconds"></h1>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
